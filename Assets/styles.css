@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*whole page layout*/
+body {
+    color: #342f46;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    background-color: #342f46;
+    color: #d9dcd6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1 {
+    display: inline;
+    font-size: 48px;
+}
+ /*fix key contact*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+/*Contact work about me keys*/
+.info {
+    color: #d9dcd6;
+    text-decoration: none;
+}
+
+/*Background Image adjustemnt*/
+.background-image {
+    background-image: url(../02-Challenge/Assets/road-ga50ceb116_1920.jpg);
+    background-position: center;
+}
+
+.photo1 {
+    height: 300px;
+    margin: 25px ;
+}
+
+/*section layout*/
+.seclayout {
+    display: flex;
+    margin-right: 30px;
+    padding: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: left;
+    padding: 40px;
+    width: 35vw;
+}
+
+.section-contect {
+    padding: 30px;
+}
+
+.section-title {
+    font-size: 35px;
+    margin: 0 0 0 80px;
+    /*width: 50%;*/
+}
+
+
+.image {
+    height: 150px;
+}
+
+.contact-info ul {
+font-size: 20px;
+list-style: none;
+text-decoration: none;
+flex-direction: column;
+}
+
+.vl-border3 {
+    border: 2px solid #342f46;
+}
+
+.phone  {
+text-decoration: none;
+list-style: none;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+color: #342f46;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+
+
